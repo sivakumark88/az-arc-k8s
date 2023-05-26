@@ -4,7 +4,7 @@ metadata:
   name: aks-helloworld-one
   namespace: github-public
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: aks-helloworld-one
